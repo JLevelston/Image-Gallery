@@ -1,4 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  padding:0;
+  background: lightgrey;
+}
+
+header {
+  text-align: center;
+}
+.container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .dog {
-  height: 290px;
-  width: 360px;
+  width: 415px;
+  height: 380px;
+  margin: 10px;
 }
