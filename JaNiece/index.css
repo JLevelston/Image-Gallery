@@ -5,11 +5,12 @@
 body {
   margin:0;
   padding:0;
-  background: lightgrey;
+  background-color: purple;
 }
 
 header {
   text-align: center;
+  color: white;
 }
 .container {
   padding: 10px;
@@ -22,4 +23,22 @@ header {
   width: 415px;
   height: 380px;
   margin: 10px;
+}
+
+@media only screen and (min-width: 320px) {
+  body {
+    background-color: lightgrey;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: grey;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  body {
+    background-color: black;
+  }
 }
